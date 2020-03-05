@@ -12,6 +12,7 @@ class Profile extends CI_Controller
 		$this->load->helper(array('url','form'));
 		$this->load->model('portfolio_model');
 		$this->load->library('session');
+		echo "Hello";
 	}
 
 	public function index()
